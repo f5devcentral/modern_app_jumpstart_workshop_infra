@@ -1,3 +1,4 @@
+---
 grafana:
   persistence:
     enabled: true

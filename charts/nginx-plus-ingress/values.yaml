@@ -1,13 +1,14 @@
+---
 nginx-ingress:
   controller:
-    appprotect: 
+    appprotect:
       enable: true
     appprotectdos:
       enable: true
     enableSnippets: true
     image:
-      repository: ghcr.io/aknot242/nginx-plus-ingress
-      tag: 2.3.0-SNAPSHOT-979db22
+      repository: ghcr.io/<GITHUB_USER>/nginx-plus-ingress
+      tag: <TAG>
     nginxplus: true
     nginxStatus:
       allowCidrs: 0.0.0.0/0

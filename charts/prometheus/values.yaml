@@ -1,3 +1,4 @@
+---
 prometheus:
   pushgateway:
     enabled: false
