@@ -1,5 +1,9 @@
 ---
 grafana:
+  rbac:
+    pspEnabled: false
+  testFramework:
+    enabled: false
   persistence:
     enabled: true
     type: pvc
