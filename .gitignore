@@ -1,0 +1,4 @@
+*.jwt
+*.crt
+*.cer
+*.key
