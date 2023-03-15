@@ -8,7 +8,7 @@ nginx-ingress:
     enableSnippets: true
     image:
       repository: private-registry.nginx.com/nginx-ic-nap-dos/nginx-plus-ingress
-      tag: 2.4.0
+      tag: 3.0.2
     nginxplus: true
     nginxStatus:
       allowCidrs: 0.0.0.0/0
